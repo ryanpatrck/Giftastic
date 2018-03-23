@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Giftastic Movies</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Header  -->
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Movie Searches</h1>
+        </div>
+    </div>
+    <!-- Buttons  -->
+    <div id="Gifbuttonview" class="wrapper">
+    </div>
+     <!-- Main Container  -->
+    <div class="container">
+        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+            <!-- Gifs  -->
+            <div id="gifsview"></div>
+        </div>
+         <!-- Action Submission Form  -->
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <form id="gif-form" role="form">
+                <h2><legend>Movie Submissions</legend></h2>
+                <div class="form-group">
+                    <label for="movie-input">Add your movie below</label>
+                    <input type="text" id="movie-input">
+                </div>
+                <input id="addGif" type="submit" value="Add your movie" class="btn btn-primary">
+                <input id="removeGif" type="submit" value="Remove last movie" class="btn btn-primary">
+            </form>    
+        </div>
+    </div>
+
+            <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+            <script type="text/javascript" src="assets/javascript/logic.js"></script>
+</body>
+</html>
