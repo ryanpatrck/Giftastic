@@ -11,12 +11,18 @@ body {
 
 body {
    padding:10px;
-   padding-bottom:60px;   /* Height of the footer */
+   padding-bottom:60px; 
+   background:url('../images/concrete2.png');
 }
 footer {
-   position:absolute;
-   bottom:0;
-   width:100%;
-   height:60px;   /* Height of the footer */
+        background: #666;
+        color: #fff;
+        padding: 30px 0;
+        clear: both;
+        border-top: 8px solid #4aaaa5;
+        color: #ccc;
+        font-size: 12px;
+        text-align: center;
+    
+    }
   
-}
