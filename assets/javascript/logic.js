@@ -39,7 +39,7 @@ function RemovelastButton(){
 //function that displays all of the gifs
 function Displaygifs(){
     var movie = $(this).attr("data-name");
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + movie + "&api_key=F83wH8JtFWXAq94qIL3yXldOx8dTpEyN&limit=10";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + movie + "&api_key=F83wH8JtFWXAq94qIL3yXldOx8dTpEyN&limit=10";
     $.ajax({
         url: queryURL,
         method: "GET"
